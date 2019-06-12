@@ -1,0 +1,9 @@
+immport numpy as np
+import rabdom
+from PIL import Image
+from skimage import transform
+from skimage import util
+# load image data
+img = Image.open("C:\SUbject\image\dog\dog.jpg")
+np_img = np.asarray(img)
+img
